@@ -12,5 +12,10 @@ WHERE a.Closed_Flag = 0
 	AND a.BusGroup = 'App Support'
 	--AND ServiceType='EHR'
 	--AND ServiceSubType='Allergy Module'
+<<<<<<< HEAD
 --GROUP BY a.BusGroup,/*Board_Name, Servicetype,*/ ServiceSubType
 --ORDER BY /*Board_Name,ServiceType,*/ ServiceSubType
+=======
+GROUP BY a.BusGroup,/*Board_Name, Servicetype,*/ ServiceSubType
+--ORDER BY /*Board_Name,ServiceType,*/ ServiceSubType
+>>>>>>> origin/master
