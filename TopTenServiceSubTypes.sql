@@ -13,4 +13,4 @@ WHERE a.Closed_Flag = 0
 	--AND ServiceType='EHR'
 	--AND ServiceSubType='Allergy Module'
 GROUP BY a.BusGroup,/*Board_Name, Servicetype,*/ ServiceSubType
-ORDER BY /*Board_Name,ServiceType,*/ ServiceSubType
+--ORDER BY /*Board_Name,ServiceType,*/ ServiceSubType
